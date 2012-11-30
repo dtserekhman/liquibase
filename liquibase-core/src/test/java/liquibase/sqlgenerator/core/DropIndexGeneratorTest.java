@@ -51,7 +51,6 @@ public class DropIndexGeneratorTest {
 ////    }
 
 
-	@Test
 	public void shouldDropIndexInPostgreSQL() throws Exception {
 		DropIndexGenerator dropIndexGenerator = new DropIndexGenerator();
 		DropIndexStatement statement = new DropIndexStatement("indexName", "defaultSchema", "aTable", null);
